@@ -5,8 +5,8 @@
 #include "TierS.h"
 
 TierS::TierS(std::string ngay)
-    : Ve(ngay, 1200000) {}
+    : Ve(ngay, 1299000) {}
 
 double TierS::tinhHeSoGia() const {
-    return 1.6;
+    return 3.26;
 }

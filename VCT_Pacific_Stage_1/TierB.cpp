@@ -5,7 +5,7 @@
 #include "TierB.h"
 
 TierB::TierB(std::string ngay)
-    : Ve(ngay, 500000) {}
+    : Ve(ngay, 399000) {}
 
 double TierB::tinhHeSoGia() const {
     return 1.0;

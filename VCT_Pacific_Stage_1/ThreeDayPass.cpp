@@ -5,8 +5,8 @@
 #include "ThreeDayPass.h"
 
 ThreeDayPass::ThreeDayPass()
-    : Ve("15-16-17/05/2026", 3000000) {}
+    : Ve("15-16-17/05/2026", 3315000) {}
 
 double ThreeDayPass::tinhHeSoGia() const {
-    return 2.8;
+    return 8.31;
 }
