@@ -32,7 +32,7 @@ int main() {
 
     // ===== 2️⃣ DU LIEU THU 10 - NGUOI DUNG NHAP =====
     std::string ten;
-    std::cout << "Nhap ten khach hang thu 10: ";
+    std::cout << "Nhap ten khach hang: ";
     std::getline(std::cin, ten);
 
     auto khNguoiDung = std::make_shared<KhachHang>(ten);

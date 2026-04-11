@@ -66,9 +66,24 @@ void KhachHang::hienThiThongTin() const {
     for (size_t i = 0; i < danhSachVe.size(); ++i) {
         std::cout << "  Ve " << i + 1
                   << " | Ngay: " << danhSachVe[i]->getNgaySuDung()
-                  << " | Gia: " << danhSachVe[i]->tinhGia() << " VND\n";
+                  << " | Gia: " << danhSachVe[i]-> tinhGia() << " VND\n";
     }
     std::cout << std::fixed << std::setprecision(0);
     std::cout << "Tong tien: " << formatTien(tongTien()) << " VND\n";
     std::cout << "-------------------------------------\n";
+}
+bool KhachHang::hoanVe(size_t index) {
+    if (index >= danhSachVe.size())
+        return false;
+
+    danhSachVe.erase(danhSachVe.begin() + index);
+    return true;
+}
+
+void KhachHang::hoanTatCaVe() {
+    danhSachVe.clear();
+}
+
+bool KhachHang::daHetVe() const {
+    return danhSachVe.empty();
 }

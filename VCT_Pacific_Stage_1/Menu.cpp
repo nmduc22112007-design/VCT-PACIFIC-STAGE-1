@@ -16,6 +16,7 @@ void Menu::hienThiMenu() {
     std::cout << "2. Mua ve Tier A\n";
     std::cout << "3. Mua ve Tier S\n";
     std::cout << "4. Mua ve 3-Day Pass (Tier S)\n";
+    std::cout << "5. Hoan ve\n";
     std::cout << "0. Ket thuc\n";
     std::cout << "============================================\n";
 }

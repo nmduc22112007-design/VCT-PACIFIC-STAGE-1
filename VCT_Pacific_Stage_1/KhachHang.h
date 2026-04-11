@@ -15,6 +15,9 @@ private:
     std::vector<std::shared_ptr<Ve>> danhSachVe;
 
 public:
+    bool hoanVe(size_t index);      // Hoàn tiền cho 1 vé
+    void hoanTatCaVe();             // Hoàn tiền cho toàn bộ các vé đã mua
+    bool daHetVe() const;                 // Kiểm tra xem còn vé hay không
     KhachHang(std::string t);
     ~KhachHang();
 
