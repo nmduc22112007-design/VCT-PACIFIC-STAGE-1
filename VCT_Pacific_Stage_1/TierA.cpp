@@ -8,5 +8,5 @@ TierA::TierA(std::string ngay)
     : Ve(ngay, 779000) {}
 
 double TierA::tinhHeSoGia() const {
-    return 1.95;
+    return 1.0;
 }

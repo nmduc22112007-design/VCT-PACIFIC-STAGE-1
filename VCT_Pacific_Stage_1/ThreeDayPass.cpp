@@ -8,5 +8,5 @@ ThreeDayPass::ThreeDayPass()
     : Ve("15-16-17/05/2026", 3315000) {}
 
 double ThreeDayPass::tinhHeSoGia() const {
-    return 8.31;
+    return 1.0;
 }
